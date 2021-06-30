@@ -1,0 +1,99 @@
+/* Universal selector style */
+* {
+    margin: 0;
+    padding: 0;
+  }
+/* Body style */
+body {
+    background-color:rgb(247, 241, 241);
+}
+/* Header and navigation styles start */
+header {
+    padding: 10px 35px;
+    background-color: rgb(212, 139, 184);
+}
+
+header h1 {
+    font-size: 50px;
+    color:blanchedalmond;
+    margin: 0;
+    display: inline;
+} 
+header a {
+    color:blanchedalmond;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+/* Header and navigation styles end */
+  
+/* add style to text block */
+.text-block {
+    position: absolute;
+    top: 235px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* apply style to About me, my work and contact me sections */
+.bios {
+    display: flex;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+h2 {
+    border-right:2px solid rgb(138, 62, 74);
+    padding-right: 15px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+.bio {
+    padding-left: 15px;
+}
+.social ul li{
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.apps {
+    padding-left: 20px;
+}
+/* style img tags*/
+.image {
+    float: right;
+}
+
+/* style img border tags*/
+.Run-Buddy img {
+  border-top-style: solid;
+  border-top-color: grey;
+  border-right-style: solid;
+  border-right-color: grey;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-left-style: solid;
+  border-left-color: grey;
+}
+/* add style to footer tags */
+footer {
+    float: right;
+    margin: 45px;
+    padding-right: 550px;
+}
+/* <a> Element style*/
+a {
+    font-size: 30px;
+    padding-left: 30px;
+}
